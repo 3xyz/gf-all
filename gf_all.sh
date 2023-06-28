@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-gf_patterns='''
+gf_patterns="""
 debug_logic
 img-traversal
 interestingEXT
@@ -14,7 +14,7 @@ ssrf
 ssti
 xss
 xss2
-'''
+"""
 
 # EXPECTED FILE WHICH CONTAIN GAU OUTPUT OR SAME
 main() {
