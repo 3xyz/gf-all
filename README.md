@@ -1,17 +1,17 @@
 # gf-all
 Run all patterns instantly and generate files.
 
-Required tools: 
+### Required tools: 
 - [gau](https://github.com/lc/gau) (Gathering data about website from iot)
 - [gf](https://github.com/tomnomnom/gf) (Its like grep but with patterns ideas)
 - [gf-patterns](https://github.com/1ndianl33t/Gf-Patterns) (Patterns for gf)
 
-Usage:
+### Usage:
 ```sh
 bash gf_all.sh gau_output.txt
 ```
 
-Screenshot:
+### Screenshot:
 
 ![](./Screenshot.png)
 
@@ -37,7 +37,7 @@ xss
 xss2
 """
 
-# EXPECTED FILE WHICH CONTAIN GAU OUTPUT OR SAME
+# Expected file which contain gau output or same
 main() {
   check $@
   create $1
