@@ -17,7 +17,8 @@ Screenshot:
 
 <details>
 <summary>gf_all.sh</summary>
-```sh
+
+```
 #!/usr/bin/env bash
 
 gf_patterns="""
@@ -71,4 +72,5 @@ error() {
 
 main $@
 ```
+ 
 </details>
