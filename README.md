@@ -6,16 +6,17 @@ Required tools:
 - [gf](https://github.com/tomnomnom/gf) (Its like grep but with patterns ideas)
 - [gf-patterns](https://github.com/1ndianl33t/Gf-Patterns) (Patterns for gf)
 
-Screenshot:
-![](./Screenshot.png)
-
 Usage:
 ```sh
 bash gf_all.sh gau_output.txt
 ```
 
+Screenshot:
+![](./Screenshot.png)
+
 <details>
 <summary>gf_all.sh</summary>
+```sh
 #!/usr/bin/env bash
 
 gf_patterns='''
@@ -68,4 +69,5 @@ error() {
 }
 
 main $@
+```
 </details>
